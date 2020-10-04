@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="bill.js" async></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+        integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+    <title>KitchenSpace-2020</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <a href="index.html"><i id="nav-tokens" class="fas fa-utensils"></i>Home</a>
+                <a href="menu.html"><i id="nav-tokens" class="fas fa-space-shuttle"></i>Menu</a>
+                <a href="reservation.html"><i id="nav-tokens" class="far fa-clipboard"></i>Reservation</a>
+            </nav>
+
+        </div>
+        <div class="nav-toggle">
+            <i class="fas fa-bars" id="togglebtn" href=""></i>
+        </div>
+
+        
+
+    </header>
+
+    <h1>Cuisine</h1>
+       <!--  <div class="dish-search">
+            <h2>Search Your Fav Dish</h2>
+            <input type="text" id="searchbar" placeholder="Search for Dishes..">
+        </div>  -->
+     <a href="#table" id="bill"><i class="fas fa-money-bill-alt"></i> Get The Bill</a>
+     <div class="cusine-list">
+        <h3>Chineese</h3>
+        <div class="cusine">
+            <div class="food-card">
+                <img src="https://i.ndtvimg.com/i/2015-10/dimsum_625x350_51446202982.jpg" />
+                <h4>Dim Sums</h4>
+                <h4>5 $</h4>
+                <button class="btn-card" type="button">Add to Bill</button>
+            </div>
+            <div class="food-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-5s7g-VuS2H7mwfnF8g-quna95_6U-z-XTA&usqp=CAU" />
+                <h4>Kung Pao Chicken</h4>
+                <h4>7 $</h4>
+                <button class="btn-card"type="button">Add to Bill</button>
+            </div>
+            <div class="food-card">
+                <img src="https://images.chinahighlights.com/allpicture/2019/11/fd729ddd3fdf4fd9beefc79e_894x594.jpg" />
+                <h4>Shrimp with Vermicelli and Garlic</h4>
+                <h4>15 $</h4>
+                <button class="btn-card">Add to Bill</button>
+            </div>
+        </div>
+       <!--  <div class="go-to-bill">
+            <a href="#table" id="bill-in"><i class="fas fa-money-bill-alt"></i> Get The Bill</a>
+        </div> -->
+        <h3>Italian</h3>
+        <div class="cusine">
+            <div class="food-card">
+                <img src="https://mk0travelawayrru2xew.kinstacdn.com/wp-content/uploads/2016/06/panzanella-salad.jpg" />
+                <h4>Panzanella (Tuscany)</h4>
+                <h4>5 $</h4>
+                <button class="btn-card" type="button">Add to Bill</button>
+
+            </div>
+            <div class="food-card">
+                <img
+                    src="https://mk0travelawayrru2xew.kinstacdn.com/wp-content/uploads/2016/06/spaghetti-carbonara.jpg" />
+                <h4>Spaghetti alla Carbonara (Rome)</h4>
+                <h4>7 $</h4>
+                <button class="btn-card" type="button">Add to Bill</button>
+            </div>
+            <div class="food-card">
+                <img src="https://mk0travelawayrru2xew.kinstacdn.com/wp-content/uploads/2016/06/italian-cicchetti.jpg">
+                <h4>Cicchetti (Venice)
+                </h4>
+                <h4>17 $</h4>
+                <button class="btn-card" type="button">Add to Bill</button>
+            </div>
+        </div>
+       <!--  <div class="go-to-bill">
+            <a href="#table" id="bill-in"><i class="fas fa-money-bill-alt"></i> Get The Bill</a>
+        </div> -->
+        <h3>Japaneese</h3>
+
+        <div class="cusine">
+            <div class="food-card">
+                <img src="https://resources.matcha-jp.com/archive_files/jp/2016/08/20160823_sushi2.jpg" />
+                <h4>Sushi</h4>
+                <h4>5 $</h4>
+                <button class="btn-card" type="button">Add to Bill</button>
+            </div>
+            <div class="food-card">
+                <img src="https://resources.matcha-jp.com/resize/720x2000/2019/05/06-76332.jpeg">
+                <h4>Sukiyaki</h4>
+                <h4>7 $</h4>
+                <button class="btn-card" type="button">Add to Bill</button>
+            </div>
+            <div class="food-card">
+                <img src="https://resources.matcha-jp.com/archive_files/jp/2015/07/unagi1.jpg">
+                <h4>Unagi - Grilled Eel</h4>
+                <h4>20 $</h4>
+                <button class="btn-card" type="button">Add to Bill</button>
+            </div>
+        </div>
+       <!--  <div class="go-to-bill">
+            <a href="#table" id="bill-in"><i class="fas fa-money-bill-alt"></i> Get The Bill</a>
+        </div> -->
+        <h3>Korean</h3>
+        <div class="cusine">
+            <div class="food-card">
+                <img src="https://a.cdn-hotels.com/gdcs/production127/d1648/2c7d2e80-846b-452f-938a-aad111e71c8b.jpg">
+                <h4>Korean stew (jjigae)
+                </h4>
+                <h4>6 $</h4>
+                <button  class="btn-card" type="button">Add to Bill</button>
+            </div>
+            <div class="food-card">
+                <img src="https://a.cdn-hotels.com/gdcs/production143/d643/67be50c8-3460-4544-b47a-e60f1d071340.jpg">
+                <h4>Jajangmyeon</h4>
+                <h4>18 $</h4>
+                <button class="btn-card" type="button">Add to Bill</button>
+            </div>
+            <div class="food-card">
+                <img src="https://a.cdn-hotels.com/gdcs/production17/d515/6683396a-7dff-41d0-acd0-e13c00c5c67c.jpg">
+                <h4>Spicy cold noodle (bibim nengmyun)
+                </h4>
+                <h4>27 $</h4>
+                <button class="btn-card" type="button">Add to Bill</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h1>Bill</h1>
+
+        <table id="table">
+            <tr>
+                <th>Dish</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <!--
+                New Elements in the Cart Wil be Added Here
+            -->
+
+        </table>
+
+        <div class="total-price">
+            <table id="bill-table">
+                <tr>
+                    <td>Subtotal</td>
+                    <td>0 $</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>0 $</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>0 $</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+
+
+
+
+</html>
